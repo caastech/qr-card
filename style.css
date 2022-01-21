@@ -93,7 +93,9 @@ img {
     color: var(--dark-blue);
 }
 
+/* Responsive */
 @media (min-width:400px) {
+    
     
     .container {
         grid-template-columns: 1fr 1fr 1fr;
