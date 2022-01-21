@@ -41,6 +41,7 @@ img {
     border-radius: 20px;
     grid-column: 2;
     padding: 1rem;
+    transition: transform 1s ease-out;
 }
 
 /* Img */
@@ -95,10 +96,18 @@ img {
 @media (min-width:400px) {
     
     .container {
-        grid-template-columns: 1fr .8fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-areas: 
+        ".  .   ."
+        ". card ."
+        ".  .  ."
+        ;
     }
 
     .card {
         min-width: 280px;
+        grid-area: card;
+        transform: scale(.8);
     }
 }
