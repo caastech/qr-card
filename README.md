@@ -6,12 +6,12 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![Preview Image](https://user-images.githubusercontent.com/57645180/150601731-19c55efa-a763-41b4-ad2a-1e4794b2b64c.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H/hub/qr-card-component-build-with-css-grid-areas-O-j1VVrCt)
+- Live Site URL: [Live Site](https://caastech.github.io/qr-card/)
 
 ## My process
 
