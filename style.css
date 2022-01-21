@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+:root {
+    --white: hsl(0, 0%, 100%);
+    --light-gray: hsl(212, 45%, 89%);
+    --gray-blue: hsl(220, 15%, 55%);
+    --dark-blue: hsl(218, 44%, 22%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 15px;
+    font-family: 'Outfit', sans-serif;
+    height: 100vh;
+}
+
+img {
+    width: 100%;
+}
+
+/* Container */
+
+.container {
+    height: inherit;
+    background: var(--light-gray);
+
+    display: grid;
+    grid-template-columns: 1fr 80vw 1fr;
+    align-items: center;
+}
+
+/* Card */
+
+.card {
+    background: var(--white); 
+    border-radius: 20px;
+    grid-column: 2;
+    padding: 1rem;
+}
+
+/* Img */
+.qr-img {
+    border-radius: 10px;
+}
+
+/* Content Div */
+.card-content {
+    font-size: 1rem;
+    text-align: center;
+    padding: 1.5em 0;
+    
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    
+}
+
+/* Title Text */
+.title {
+    font-size: 1.3em;
+    color: var(--dark-blue);
+    font-weight: 700;
+}
+
+/* Paragraph Text */
+.text {
+    padding: 0 1em;
+    font-size: .9em;
+    font-weight: 400;
+    color: var(--light-gray);
+    filter: brightness(.7);
+}
+
+
+/* Attribution */
+.attribution {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    font-size: 1rem; 
+    text-align: center;
+    color: hsl(228, 45%, 44%);
+}
+
+.attribution a {
+    text-decoration: none;
+    color: var(--dark-blue);
+}
+
+@media (min-width:400px) {
+    
+    .container {
+        grid-template-columns: 1fr .8fr 1fr;
+    }
+
+    .card {
+        min-width: 280px;
+    }
+}
